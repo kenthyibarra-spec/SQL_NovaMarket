@@ -45,5 +45,18 @@ Sigue el orden numérico para avanzar en el curso:
 - **Base de Datos:** SQLite (archivos `.db`).
 
 ---
+---
 > [!TIP]
 > **Pasos recomendados:** Lee la Guía (01), trabaja en tu Laboratorio (02) y solo si te bloqueas consulta la Solución (03).
+
+---
+## 👨‍🏫 Sección para el Docente: Cómo Compartir
+
+Si necesitas compartir este material con tus estudiantes, sigue estos pasos:
+
+1.  **Comparte el Link:** Pásales el enlace directo a tu repositorio en GitHub:
+    👉 `https://github.com/edwardzd/SQL_NovaMarket`
+2.  **Instrucciones de Descarga:**
+    - Indícales que hagan clic en el botón verde **"Code"** y luego en **"Download ZIP"**.
+    - O bien, que usen `git clone https://github.com/edwardzd/SQL_NovaMarket.git`.
+3.  **Primer Paso:** Recuérdales que deben empezar leyendo la **[Guía de Configuración del Entorno](file:///Users/macbookpro/Developer/Learning/SQL/GUIA_CONFIGURACION_ENTORNO.md)** para que Antigravity funcione correctamente en sus equipos.
