@@ -101,6 +101,24 @@ Si al intentar vincularte con el profesor te sale: *"fatal: remote upstream alre
 
 ---
 
+## 7. El Error de la Microsoft Store (Python no encontrado) 🛍️
+Si al escribir `python --version` te sale un mensaje largo que menciona la "Microsoft Store" o dice que "no se encontró python".
+
+| Pregunta | Respuesta |
+|---|---|
+| **¿Dónde?** | En la Configuración de Windows. |
+| **¿Qué?** | Windows bloquea tu Python para intentar que uses el de su tienda. |
+| **¿Cuándo?** | Justo después de instalar Python en Windows 10/11. |
+| **¿Por qué?** | Son "Alias" de ejecución que vienen activos por defecto en Windows. |
+
+**Cómo solucionarlo:**
+1.  En el buscador de Windows (lupa), escribe **"Alias de ejecución de aplicaciones"**.
+2.  Busca en la lista todos los que digan **"Python"** (`python.exe`, `python3.exe`).
+3.  **Desactiva** todos los interruptores de Python.
+4.  **Reinicia VS Code** (Cierra y abre). Ahora el comando `python --version` ya debe mostrarte la versión real.
+
+---
+
 > [!TIP]
 > **Regla de Oro:** Si nada funciona y estás frustrado, guarda tus cambios (`git add .`, `git commit`), cierra VS Code, respira 1 minuto, y vuelve a empezar. ¡La paciencia es la herramienta número 1 del analista de datos!
 
