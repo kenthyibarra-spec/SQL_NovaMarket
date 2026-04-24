@@ -3,8 +3,9 @@ import sqlite3
 import os
 
 # ⚙️ CONFIGURACIÓN INICIAL
-EXCEL_FILE = '04_Ventas_Datos_Limpios_S03.xlsx'
-DATABASE_FILE = 'Novamarket_S07.db'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+EXCEL_FILE = os.path.join(BASE_DIR, '04_Ventas_Datos_Limpios_S03.xlsx')
+DATABASE_FILE = os.path.join(BASE_DIR, 'kenthy_Novamarket_S07.db')
 
 def cargar_y_modelar():
     print(f"🚀 Iniciando carga desde: {EXCEL_FILE}...")
