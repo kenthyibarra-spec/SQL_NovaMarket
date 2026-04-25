@@ -85,5 +85,19 @@ VALUES (1, 'Bogotá', 'Centro', 1.00, 0),
 SELECT *
 FROM DimCiudad
 ORDER BY Factor_Envio DESC;
+
+-- 3. La Prueba de Oro (Foreign Key)
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE FactVentas_Demo (
+    TransaccionID INTEGER PRIMARY KEY,
+    CiudadID      INTEGER NOT NULL,
+    Cantidad      INTEGER NOT NULL,
+    FOREIGN KEY (CiudadID) REFERENCES DimCiudad(CiudadID)
+);
+
+-- ESTO DEBE DAR ERROR PORQUE LA CIUDAD 99 NO EXISTE:
+INSERT INTO FactVentas_Demo VALUES (101, 99, 5);
+
 -- ═══════════════════════════════════════════════════════════════
 -- Fin del Laboratorio 06
