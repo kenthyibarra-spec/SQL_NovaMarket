@@ -4,13 +4,13 @@
             "previewLimit": 50,
             "driver": "SQLite",
             "name": "kenthy_Sesion_06",
-            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/01_Sesion_06/kenthy_01_Base_Datos_S06.db"
+            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/01_Sesion_06/01_Base_Datos_S06_Kenthyibarra.db"
         },
         {
             "previewLimit": 50,
             "driver": "SQLite",
             "name": "kenthy_Sesion_07",
-            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/02_Sesion_07/kenthy_Novamarket_S07.db"
+            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/02_Sesion_07/Novamarket_S07_Kenthyibarra.db"
         },
         {
             "previewLimit": 50,
@@ -22,7 +22,7 @@
             "previewLimit": 50,
             "driver": "SQLite",
             "name": "kenthy_conexion2",
-            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/02_Sesion_07/kenthy_Novamarket_S07.db"
+            "database": "C:/Users/Camilo/OneDrive/analisis de datos/SQL_NovaMarket/02_Sesion_07/Novamarket_S07_Kenthyibarra.db"
         },
         {
             "previewLimit": 50,
