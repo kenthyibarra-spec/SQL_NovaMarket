@@ -3,7 +3,7 @@
         {
             "previewLimit": 50,
             "driver": "SQLite",
-            "database": "${workspaceFolder:analisis de datos}/SQL_NovaMarket/02_Sesion_07/Novamarket_S07.db",
+            "database": "${workspaceFolder:analisis de datos}/02_Sesion_07/Novamarket_S07.db",
             "name": "NovaMarket"
         }
     ]
