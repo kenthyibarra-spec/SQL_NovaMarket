@@ -5,6 +5,12 @@
             "driver": "SQLite",
             "database": "${workspaceFolder:analisis de datos}/02_Sesion_07/Novamarket_S07_kenthyibarra.db",
             "name": "NovaMarket"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "NovaMarket_S08S09",
+            "database": "${workspaceFolder:analisis de datos}/03_Sesion_08_09/Novamarket_S08S09_kenthyibarra.db"
         }
     ]
 }
